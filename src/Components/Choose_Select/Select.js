@@ -58,6 +58,11 @@ const Select = () => {
       name: "Url Choose Image ",
       path: "url",
     },
+    {
+      id: 10,
+      name: "Show Image Movie Tab",
+      path: "movie",
+    },
   ];
   useEffect(() => {
     localStorage.setItem("list", JSON.stringify(select));

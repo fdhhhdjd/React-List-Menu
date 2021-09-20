@@ -10,6 +10,7 @@ import Routers from "./Components/RouterFull/Router";
 import Carousel from "./Components/Carousel/Carousel";
 import Infinite from "./Page/Infinite scroll/Infinite";
 import UrlImages from "./Components/UrlImage/UrlImages";
+import ShowImage from "./Components/Show-image-move/ShowImage";
 
 function App() {
   return (
@@ -41,9 +42,9 @@ function App() {
           <Route exact path="/url">
             <UrlImages />
           </Route>
-          {/* <Route exact path="/firebase">
-            <FirebaseStorage />
-          </Route> */}
+          <Route exact path="/movie">
+            <ShowImage />
+          </Route>
         </Switch>
       </BrowserRouter>
     </>
