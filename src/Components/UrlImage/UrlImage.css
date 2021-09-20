@@ -1,0 +1,187 @@
+
+
+.header {
+  text-align: center;
+  font-weight: 400;
+  font-size: 27px;
+  padding: 5px 0;
+  font-weight: 600;
+  background: gold;
+  margin: 0;
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+ monospace;
+}
+
+.inputField {
+  margin: auto;
+  max-width: 650px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.imageWrapper {
+  padding: 0 10px;
+}
+
+.imageContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 800px) {
+  .imageContent {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.inputField {
+  padding: 0 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.inputField input[type="text"] {
+  max-width: 400px;
+  width: 100%;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 0;
+  display: inline-block;
+  border: 1px solid #222;
+  outline: none;
+}
+
+.inputField .uploadInput {
+  width: 0px;
+  height: 0px;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.inputField .or {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding: 0 20px;
+}
+
+.inputField .uploadImage {
+  padding: 8px 16px;
+  font-size: 16px;
+  background: #3c3d37;
+  color: #fff;
+  display: inline-block;
+  border: 0;
+  border-radius: 0;
+  cursor: pointer;
+  outline: none;
+}
+
+.imageArea {
+  width: 60%;
+  display: block;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 60%;
+          flex: 0 0 60%;
+  max-width: 900px;
+  height: 70vmin;
+}
+
+@media (max-width: 800px) {
+  .imageArea {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+  }
+}
+
+.imageArea:empty {
+  display: none;
+}
+
+.imageArea img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.imageResult {
+  padding: 30px;
+}
+
+@media (max-width: 800px) {
+  .imageResult {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+.imageResult .result {
+  border: 1px solid #333;
+  margin: 0 0 10px;
+  padding: 10px;
+}
+
+.imageResult .result:first-of-type {
+  border-color: #e6a76c;
+  background-color: #e6a76c;
+}
+
+.imageResult .result:first-of-type .name {
+  color: #fff;
+}
+
+.imageResult .result:first-of-type .accuracy {
+  color: #dfdfdf;
+  font-weight: 600;
+}
+
+.imageResult .result .name {
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.imageResult .result .accuracy {
+  display: block;
+  font-weight: 300;
+}
+
+.imageResult .result .accuracy .bestGuess {
+  background: #fff;
+  padding: 2px 6px;
+  color: #333;
+  margin-left: 3px;
+}
+
+.button {
+  padding: 12px 17px;
+  font-size: 18px;
+  background: #917ef2;
+  color: #fff;
+  display: inline-block;
+  border: 0;
+  border-radius: 0;
+  cursor: pointer;
+  outline: none;
+}
+/*# sourceMappingURL=UrlImage.css.map */
