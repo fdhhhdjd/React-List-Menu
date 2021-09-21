@@ -63,6 +63,11 @@ const Select = () => {
       name: "Show Image Movie Tab",
       path: "movie",
     },
+    {
+      id: 11,
+      name: "Route Locations",
+      path: "router_location",
+    },
   ];
   useEffect(() => {
     localStorage.setItem("list", JSON.stringify(select));

@@ -11,6 +11,7 @@ import Carousel from "./Components/Carousel/Carousel";
 import Infinite from "./Page/Infinite scroll/Infinite";
 import UrlImages from "./Components/UrlImage/UrlImages";
 import ShowImage from "./Components/Show-image-move/ShowImage";
+import Locations from "./Page/Route_Locaitons/Locations";
 
 function App() {
   return (
@@ -44,6 +45,9 @@ function App() {
           </Route>
           <Route exact path="/movie">
             <ShowImage />
+          </Route>
+          <Route path="/router_location">
+            <Locations />
           </Route>
         </Switch>
       </BrowserRouter>
