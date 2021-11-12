@@ -12,7 +12,7 @@ import Infinite from "./Page/Infinite scroll/Infinite";
 import UrlImages from "./Components/UrlImage/UrlImages";
 import ShowImage from "./Components/Show-image-move/ShowImage";
 import Locations from "./Page/Route_Locaitons/Locations";
-import Sliders from "./Components/Sliders/Slider";
+
 function App() {
   return (
     <>
@@ -48,9 +48,6 @@ function App() {
           </Route>
           <Route path="/router_location">
             <Locations />
-          </Route>
-          <Route path="/slider">
-            <Sliders />
           </Route>
         </Switch>
       </BrowserRouter>

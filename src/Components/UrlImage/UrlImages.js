@@ -60,7 +60,7 @@ const UrlImages = () => {
 
   return (
     <>
-      <div>
+      <div className="img-url">
         <h1 className="header">Image Detection</h1>
         <div className="inputField">
           <input
