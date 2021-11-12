@@ -15,15 +15,19 @@ const Slider = () => {
   const moveDot = (index) => {
     setCurrent(index);
   };
-  useEffect(() => {
-    const slider = setInterval(() => {
-      setCurrent(current === length - 1 ? 0 : current + 1);
-    }, 1000);
-    console.log(current);
-    return () => {
-      clearInterval(slider);
-    };
-  }, [current, length]);
+  // useEffect(() => {
+  //   const slider = setInterval(() => {
+  //     if (current !== length) {
+  //       setCurrent(current + 1);
+  //     } else if (current === length) {
+  //       setCurrent(0);
+  //     }
+  //   }, 1000);
+  //   console.log(current);
+  //   return () => {
+  //     clearInterval(slider);
+  //   };
+  // }, [current, length]);
   return (
     <>
       <section className="slider">

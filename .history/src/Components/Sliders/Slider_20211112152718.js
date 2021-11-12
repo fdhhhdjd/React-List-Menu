@@ -18,7 +18,6 @@ const Slider = () => {
   useEffect(() => {
     const slider = setInterval(() => {
       setCurrent(current === length - 1 ? 0 : current + 1);
-    }, 1000);
     console.log(current);
     return () => {
       clearInterval(slider);

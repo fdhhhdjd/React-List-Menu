@@ -5,7 +5,7 @@ import { SliderData } from "./Carousel";
 const Slider = () => {
   const [current, setCurrent] = useState(0);
   const length = SliderData.length;
-
+  console.log(length);
   const prevSlide = () => {
     setCurrent(current === 0 ? length - 1 : current - 1);
   };
@@ -17,7 +17,7 @@ const Slider = () => {
   };
   useEffect(() => {
     const slider = setInterval(() => {
-      setCurrent(current === length - 1 ? 0 : current + 1);
+      setCurrent(current === 0 ? length - 1 : current + 1);
     }, 1000);
     console.log(current);
     return () => {

@@ -68,11 +68,6 @@ const Select = () => {
       name: "Route Locations",
       path: "router_location",
     },
-    {
-      id: 11,
-      name: "slider full",
-      path: "slider",
-    },
   ];
   useEffect(() => {
     localStorage.setItem("list", JSON.stringify(select));
