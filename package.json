@@ -16,6 +16,7 @@
     "antd": "^4.16.13",
     "mdb-react-ui-kit": "^1.4.0",
     "react": "^17.0.2",
+    "react-copy-to-clipboard": "^5.0.4",
     "react-dom": "^17.0.2",
     "react-icons": "^4.3.1",
     "react-particles-js": "^3.5.3",
