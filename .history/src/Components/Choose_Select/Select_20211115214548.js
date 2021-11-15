@@ -86,7 +86,7 @@ const Select = () => {
     {
       id: 15,
       name: "theme Context",
-      path: "themeContext",
+      path: "img",
     },
   ];
   useEffect(() => {

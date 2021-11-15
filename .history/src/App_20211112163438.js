@@ -15,7 +15,6 @@ import Locations from "./Page/Route_Locaitons/Locations";
 import Sliders from "./Components/Sliders/Slider";
 import CopyColor from "./Components/CopyColor/CopyColor";
 import Choose from "./Components/ChooseImage/Choose";
-import Theme from "./Components/Theme/Theme";
 function App() {
   return (
     <>
@@ -60,9 +59,6 @@ function App() {
           </Route>
           <Route path="/img">
             <Choose />
-          </Route>
-          <Route path="/themeContext">
-            <Theme />
           </Route>
         </Switch>
       </BrowserRouter>

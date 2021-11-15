@@ -83,11 +83,6 @@ const Select = () => {
       name: "Choose Img",
       path: "img",
     },
-    {
-      id: 15,
-      name: "theme Context",
-      path: "themeContext",
-    },
   ];
   useEffect(() => {
     localStorage.setItem("list", JSON.stringify(select));

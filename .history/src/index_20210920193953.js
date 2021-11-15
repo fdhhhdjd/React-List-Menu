@@ -5,13 +5,10 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import "mdb-react-ui-kit/dist/css/mdb.min.css";
 import "antd/dist/antd.css";
-import { ThemeContextProvider } from "./Contexts/ThemeContext";
 
 ReactDOM.render(
   <React.StrictMode>
-    <ThemeContextProvider>
-      <App />
-    </ThemeContextProvider>
+    <App />
   </React.StrictMode>,
   document.getElementById("root")
 );
