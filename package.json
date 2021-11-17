@@ -24,6 +24,7 @@
     "react-scripts": "4.0.3",
     "react-simple": "^1.2.3",
     "react-simple-typewriter": "^3.0.1",
+    "styled-components": "^5.3.3",
     "tsparticles": "^1.35.0",
     "typewriter": "^7.4.1",
     "web-vitals": "^1.1.2"
