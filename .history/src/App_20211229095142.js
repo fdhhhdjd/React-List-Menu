@@ -15,6 +15,11 @@ import Locations from "./Page/Route_Locaitons/Locations";
 import Sliders from "./Components/Sliders/Slider";
 import CopyColor from "./Components/CopyColor/CopyColor";
 import Choose from "./Components/ChooseImage/Choose";
+import Theme from "./Components/Theme/Theme";
+import Search from "./Components/SearchAutoWidth/Search.js";
+import GlobalStyle from "./Components/SearchAutoWidth/GlobalStyle";
+import CssMain from "./Page/Css/CssMain";
+import Forms from "./Components/FormNoLibary/Forms";
 function App() {
   return (
     <>
@@ -59,6 +64,19 @@ function App() {
           </Route>
           <Route path="/img">
             <Choose />
+          </Route>
+          <Route path="/themeContext">
+            <Theme />
+          </Route>
+          <Route path="/search">
+            <GlobalStyle />
+            <Search />
+          </Route>
+          <Route path="/css">
+            <CssMain />
+          </Route>
+          <Route path="/css">
+            <Forms />
           </Route>
         </Switch>
       </BrowserRouter>

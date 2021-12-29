@@ -78,6 +78,31 @@ const Select = () => {
       name: "Copy Color",
       path: "copycolor",
     },
+    {
+      id: 14,
+      name: "Choose Img",
+      path: "img",
+    },
+    {
+      id: 15,
+      name: "theme Context",
+      path: "themeContext",
+    },
+    {
+      id: 16,
+      name: "Search Width",
+      path: "search",
+    },
+    {
+      id: 17,
+      name: "Css Beautiful",
+      path: "css",
+    },
+    {
+      id: 18,
+      name: "form No libary",
+      path: "form",
+    },
   ];
   useEffect(() => {
     localStorage.setItem("list", JSON.stringify(select));

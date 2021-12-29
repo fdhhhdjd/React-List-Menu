@@ -88,6 +88,21 @@ const Select = () => {
       name: "theme Context",
       path: "themeContext",
     },
+    {
+      id: 16,
+      name: "Search Width",
+      path: "search",
+    },
+    {
+      id: 17,
+      name: "Css Beautiful",
+      path: "css",
+    },
+    {
+      id: 18,
+      name: "form No libary",
+      path: "css",
+    },
   ];
   useEffect(() => {
     localStorage.setItem("list", JSON.stringify(select));

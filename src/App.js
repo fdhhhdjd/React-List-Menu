@@ -19,6 +19,7 @@ import Theme from "./Components/Theme/Theme";
 import Search from "./Components/SearchAutoWidth/Search.js";
 import GlobalStyle from "./Components/SearchAutoWidth/GlobalStyle";
 import CssMain from "./Page/Css/CssMain";
+import Forms from "./Components/FormNoLibary/Forms";
 function App() {
   return (
     <>
@@ -73,6 +74,9 @@ function App() {
           </Route>
           <Route path="/css">
             <CssMain />
+          </Route>
+          <Route path="/form">
+            <Forms />
           </Route>
         </Switch>
       </BrowserRouter>
