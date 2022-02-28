@@ -103,6 +103,11 @@ const Select = () => {
       name: "form No libary",
       path: "form",
     },
+    {
+      id: 18,
+      name: "Table",
+      path: "table",
+    },
   ];
   useEffect(() => {
     localStorage.setItem("list", JSON.stringify(select));
